@@ -11,6 +11,14 @@ const nextConfig: NextConfig = {
         hostname: '*.supabase.co',
         pathname: '/storage/v1/object/public/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'bbha.in',
+      },
+      {
+        protocol: 'https',
+        hostname: 'api.qrserver.com',
+      },
     ],
   },
   headers: async () => [
